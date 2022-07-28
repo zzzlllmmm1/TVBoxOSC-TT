@@ -28,4 +28,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           名称： com.github.tvbox.osc
-          路径： $ {{ github.workspace }} /apk/*
+          路径： $ {{ github.workspace }}/apk/*
